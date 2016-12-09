@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="boolean" xml:lang="fi">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    </info>
+
+	<title>Boolean algebra</title>
+    
+    <p>Boolean algebraa voidaan laskea käyttäen AND-, OR- ja XOR-operaattoreita.</p>
+    <example>
+    <p>010011₂ AND 110101₂</p>
+    </example>
+    <p>Painikkeet näitä symboleita varten on käytössä <link xref="mouse">Ohjelmointitilassa</link>.</p>
+    <p>NOT-<link xref="function">funktio</link> invertoi luvun bitit. Sanan pituus voidaan määrittää valikosta <guiseq><gui>Laskin</gui><gui>Asetukset</gui></guiseq>.</p>
+    <example>
+    <p>NOT 010011₂</p>
+    </example>
+</page>

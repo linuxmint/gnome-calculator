@@ -1,0 +1,2 @@
+version=3
+https://download.gnome.org/sources/gnome-calculator/(\d+(?:\.\d+)*[02468])/gnome-calculator-(\d\S*)\.(?:tar\.xz|txz|tar\.bz2|tbz2|tar\.gz|tgz)

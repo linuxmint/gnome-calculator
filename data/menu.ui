@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<interface>
+  <!-- interface-requires gtk+ 3.0 -->
+  <menu id="appmenu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Preferences</attribute>
+        <attribute name="action">app.preferences</attribute>
+      </item>
+    </section>
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Help</attribute>
+        <attribute name="action">app.help</attribute>
+        <attribute name="accel">F1</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">About</attribute>
+        <attribute name="action">app.about</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Quit</attribute>
+        <attribute name="action">app.quit</attribute>
+        <attribute name="accel">&lt;Primary&gt;q</attribute>
+      </item>
+    </section>
+  </menu>
+  <menu id="window-menu">
+    <section>
+      <item>
+        <attribute name="label" translatable="yes">Basic Mode</attribute>
+        <attribute name="action">win.mode</attribute>
+        <attribute name="target">basic</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Advanced Mode</attribute>
+        <attribute name="action">win.mode</attribute>
+        <attribute name="target">advanced</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Financial Mode</attribute>
+        <attribute name="action">win.mode</attribute>
+        <attribute name="target">financial</attribute>
+      </item>
+      <item>
+        <attribute name="label" translatable="yes">Programming Mode</attribute>
+        <attribute name="action">win.mode</attribute>
+        <attribute name="target">programming</attribute>
+      </item>
+       <item>
+        <attribute name="label" translatable="yes">Keyboard Mode</attribute>
+        <attribute name="action">win.mode</attribute>
+        <attribute name="target">keyboard</attribute>
+      </item>
+    </section>
+  </menu>
+</interface>

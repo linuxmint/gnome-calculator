@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="logarithm" xml:lang="fi">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    </info>
+
+	<title>Logaritmit</title>
+    
+    <p>Logaritmit voidaan laskea käyttäen log<link xref="function">-funktiota</link>.</p>
+    <example>
+    <p>log 100</p>
+    </example>
+    <p>Logaritmi lasketaan eri kantaluvusta käyttäen <link xref="superscript">alaindeksissä olevaa numeroa</link> funktion jälkeen.</p>
+    <example>
+    <p>log₂ 32</p>
+    </example>
+    <p>Luonnollinen logaritmi lasketaan käyttäen ln-funktiota</p>
+    <example>
+    <p>ln 1.32</p>
+    </example>
+    <p>Eulerin luku voidaan syöttää käyttäen e<link xref="variable">-muuttujaa</link>.</p>
+    <example>
+    <p>e^1.32</p>
+    </example>
+</page>

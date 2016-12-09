@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="keyboard" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>키보드 사용</title>
+
+    <p>
+    All mathematical equations can be entered using the keyboard.
+    </p>
+    <p>
+    The following key combinations can be used to enter keys that may not be available on your keyboard.
+    </p>
+    <table>
+    <tr>
+    <td><p>×</p></td>
+    <td><p><key>*</key></p></td>
+    </tr>
+    <tr>
+    <td><p>÷</p></td>
+    <td><p><key>/</key></p></td>
+    </tr>
+    <tr>
+    <td><p>^</p></td>
+    <td><p><key>*</key> 두번</p></td>
+    </tr>
+    <tr>
+    <td><p>√</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+    </tr>
+    <tr>
+    <td><p>π</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+    </tr>
+    </table>
+    <p>
+    To enter <link xref="superscript">superscript numbers</link> use <keyseq><key>Ctrl</key>number</keyseq>, for subscript use <keyseq><key>Alt</key>number</keyseq>.
+    </p>
+</page>

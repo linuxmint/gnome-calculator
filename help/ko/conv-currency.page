@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="conv-currency" xml:lang="ko">
+
+  <info>
+    <link type="guide" xref="index#conversion"/>
+
+    <credit type="author copyright">
+      <name>Robert Ancell</name>
+      <email its:translate="no">robert.ancell@gmail.com</email>
+      <years>2010</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Robin Sonefors</name>
+      <email its:translate="no">ozamosi@flukkost.nu</email>
+      <years>2010</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>통화</title>
+
+  <p>통화 변환을 하려면, <link xref="financial">재무 모드</link>로 들어가서 통화 기호를 사용합니다.</p>
+
+  <steps>
+    <item>
+      <p>Enter the amount which you want to convert.</p>
+    </item>
+    <item>
+      <p>Select the currency that you want to convert from and the currency
+      that you want to convert to from the drop down below.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Currency information is approximate and should not be used for making
+    financial decisions.</p>
+  </note>
+</page>

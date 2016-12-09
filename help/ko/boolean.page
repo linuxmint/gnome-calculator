@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="boolean" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>불리언 대수</title>
+    
+    <p>AND, OR, XOR 연산자를 이용해 불리언 대수를 계산할 수 있습니다.</p>
+    <example>
+    <p>010011₂ AND 110101₂</p>
+    </example>
+    <p>
+    Buttons for these symbols are available in <link xref="mouse">programming mode</link>.
+    </p>
+    <p>
+    The NOT <link xref="function">function</link> inverts the bits in a number.
+    The word size is set from the <guiseq><gui>Calculator</gui><gui>Preferences</gui></guiseq> menu.
+    </p>
+    <example>
+    <p>NOT 010011₂</p>
+    </example>
+</page>

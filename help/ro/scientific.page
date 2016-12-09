@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="scientific" xml:lang="ro">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Nichita Uțiu</mal:name>
+      <mal:email>nikita.utiu@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Notație științifică</title>
+    
+    <p>Pentru a introduce numere în format științific utilizați butonul <gui>×10x</gui>(<keyseq><key>Ctrl</key><key>E</key></keyseq>). <link xref="superscript">Modul numeric</link> se schimbă automat în exponent. Pentru a introduce 2×10¹⁰⁰, începeți prin a introduce mantisa (2):</p>
+    <example>
+    <p>2</p>
+    </example>
+    <p>Apoi apăsați butonul pentru notație științifică (sau apăsați <keyseq><key>Ctrl</key><key>E</key></keyseq>):</p>
+    <example>
+    <p>2x10</p>
+    </example>
+    <p>Apoi introduceți exponentul (100):</p>
+    <example>
+    <p>2×10¹⁰⁰</p>
+    </example>
+    <p>Pentru a afișa rezultate în formă științifică modificați <link xref="number-display">formatul rezultatului</link>.</p>
+</page>

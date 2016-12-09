@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="scientific" xml:lang="fi">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    </info>
+
+	<title>Tieteellinen merkintätapa</title>
+    
+    <p>Voit asettaa numeroita tieteellisessä muodossa käyttäen <gui>×10x</gui>-painiketta (<keyseq><key>Ctrl</key><key>E</key></keyseq>). <link xref="superscript">Lukutila</link> muuntaa ne automaattisesti yläindeksiin. Syöttääksesi2×10¹⁰⁰, aloita antamalla mantissa (2):</p>
+    <example>
+    <p>2</p>
+    </example>
+    <p>Tämän jälkeen paina tieteellisen merkintätavan painiketta (tai paina <keyseq><key>Ctrl</key><key>E</key></keyseq>):</p>
+    <example>
+    <p>2×10</p>
+    </example>
+    <p>Tämän jälkeen aseta eksponentti (100):</p>
+    <example>
+    <p>2×10¹⁰⁰</p>
+    </example>
+    <p>Jotta saisit tuloksen tieteellisessä muodossa, vaihda <link xref="number-display">tulosten muoto</link>.</p>
+</page>

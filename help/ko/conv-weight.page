@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="conv-weight" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#conversion"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>도량형</title>
+    
+    <p>도량형을 변환하려면 <em>in</em> 연산자를 사용합니다.</p>
+    <example>
+    <p>1kg in pounds</p>
+    </example>
+    <note>
+    <p>
+    Mass conversions must be performed using the keyboard.
+    </p>
+    </note>
+</page>

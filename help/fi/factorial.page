@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="factorial" xml:lang="fi">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    </info>
+
+	<title>Tekijät</title>
+    
+    <p>Tekijät syötetään käyttäen !-symbolia. Luvun 6 tekijät saat laskettua syöttämällä seuraavanlaisen lausekkeen.</p>
+    <example>
+    <p>6!</p>
+    </example>
+</page>

@@ -1,0 +1,47 @@
+From 647eb687821fd74764a55767bf1e34f68f5df940 Mon Sep 17 00:00:00 2001
+From: Alberto Ruiz <aruiz@gnome.org>
+Date: Mon, 1 Aug 2016 09:30:48 +0100
+Subject: lib: prevents segfault when elements of division to zero have null
+ assigned tokens (fixes #769364)
+
+---
+ lib/equation-parser.vala | 6 +++++-
+ tests/test-equation.vala | 1 +
+ 2 files changed, 6 insertions(+), 1 deletion(-)
+
+diff --git a/lib/equation-parser.vala b/lib/equation-parser.vala
+index b00224d..994e11d 100644
+--- a/lib/equation-parser.vala
++++ b/lib/equation-parser.vala
+@@ -577,11 +577,15 @@ public class DivideNode : LRNode
+         var z = l.divide (r);
+         if (Number.error != null)
+         {
++            uint token_start = 0;
++            uint token_end = 0;
+             var tmpleft = right;
+             var tmpright = right;
+             while (tmpleft.left != null) tmpleft = tmpleft.left;
+             while (tmpright.right != null) tmpright = tmpright.right;
+-            parser.set_error (ErrorCode.MP, Number.error, tmpleft.token.start_index, tmpright.token.end_index);
++            if (tmpleft.token != null) token_start = tmpleft.token.start_index;
++            if (tmpright.token != null) token_end = tmpright.token.end_index;
++            parser.set_error (ErrorCode.MP, Number.error, token_start, token_end);
+             Number.error = null;
+         }
+         return z;
+diff --git a/tests/test-equation.vala b/tests/test-equation.vala
+index 4a4d561..76d1250 100644
+--- a/tests/test-equation.vala
++++ b/tests/test-equation.vala
+@@ -346,6 +346,7 @@ private void test_equations ()
+     test ("2÷3", "0.666666667", 0);
+     test ("1÷0", "", ErrorCode.MP);
+     test ("0÷0", "", ErrorCode.MP);
++    test ("1÷sin(0)", "", ErrorCode.MP);
+ 
+     /* Precision */
+     test ("1000000000000000−1000000000000000", "0", 0);
+-- 
+cgit v0.12
+

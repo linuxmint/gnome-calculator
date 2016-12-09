@@ -1,0 +1,46 @@
+Source: gnome-calculator
+Section: math
+Priority: optional
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: @GNOME_TEAM@
+Homepage: https://wiki.gnome.org/Apps/Calculator
+Build-Depends: cdbs (>= 0.4.41),
+               debhelper (>= 9),
+               dh-autoreconf,
+               gnome-pkg-tools (>= 0.10),
+               yelp-tools (>= 3.1.1),
+               intltool (>= 0.50),
+               valac (>= 0.24),
+               libglib2.0-dev (>= 2.40.0),
+               libgtk-3-dev (>= 3.11.6),
+               libgtksourceview-3.0-dev (>= 3.15.1),
+               libxml2-dev (>= 2.4.7),
+               libmpfr-dev
+Standards-Version: 3.9.6
+Vcs-Svn: svn://anonscm.debian.org/pkg-gnome/desktop/unstable/gnome-calculator
+Vcs-Browser: https://anonscm.debian.org/viewvc/pkg-gnome/desktop/unstable/gnome-calculator/
+
+Package: gnome-calculator
+Architecture: any
+Depends: ${shlibs:Depends},
+         ${misc:Depends}
+Recommends: yelp,
+            gvfs
+Breaks: gcalctool (<< 6.7)
+Replaces: gcalctool (<< 6.7)
+Description: GNOME desktop calculator
+ The GNOME calculator is a powerful graphical calculator with financial,
+ logical and scientific modes. It uses a multiple precision package to do its
+ arithmetic to give a high degree of accuracy.
+
+Package: gcalctool
+Architecture: all
+Priority: extra
+Section: oldlibs
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         gnome-calculator
+Description: GNOME desktop calculator (transitional package)
+ This is a transitional package to ease upgrades to gnome-calculator.
+ It can be safely removed.

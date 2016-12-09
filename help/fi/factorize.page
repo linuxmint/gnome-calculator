@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="factorize" xml:lang="fi">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    </info>
+
+	<title>Tekijöihinjako</title>
+    
+    <p>Voit jakaa näytettävän luvun tekijöihin napsauttamalla <gui>fact</gui>-painiketta. Tämä painike on näkyvissä <link xref="mouse">ohjelmointitilassa</link>.</p>
+</page>

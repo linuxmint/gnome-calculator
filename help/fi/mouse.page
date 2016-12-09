@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="mouse" xml:lang="fi">
+
+    <info>
+        <link type="guide" xref="index#ui"/>
+    </info>
+
+	<title>Hiiren käyttö</title>
+
+    <p>
+    All equations can be entered using the mouse.
+    To access all buttons there are a number of modes that can be selected from the <gui>Mode</gui> menu.
+    </p>
+    <table>
+    <tr>
+    <td><p>Perusteet</p></td>
+    <td><p>Sisältää painikkeet, joiden avulla voidaan suorittaa <link xref="equation">yksinkertaisia laskutoimituksia</link></p></td>
+    </tr>
+    <tr>
+    <td><p>Edistynyt käyttö</p></td>
+    <td><p>Provides buttons suitable for advanced mathematics such as <link xref="trigonometry"/></p></td>
+    </tr>
+    <tr>
+    <td><p>Talous</p></td>
+    <td><p>Sisältää <link xref="financial">talouslaskuihin</link> soveltuvat painikkeet </p></td>
+    </tr>
+    <tr>
+    <td><p>Ohjelmointi</p></td>
+    <td><p>Sisältää tietokoneohjelmointiin soveltuvat painikkeet</p></td>
+    </tr>
+    </table>
+</page>

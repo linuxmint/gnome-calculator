@@ -1,0 +1,1544 @@
+# Sun Microsystems, 2003.
+# Changwoo Ryu <cwryu@debian.org>, 2007-2008, 2015.
+#
+#
+# 새로 번역하신 분은 아래 "translator-credits"에 추가하세요.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gcalctool-help\n"
+"POT-Creation-Date: 2015-03-07 16:41+0000\n"
+"PO-Revision-Date: 2015-09-12 15:56+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr-hackers@lists.kldp.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Sun Microsystems, 2003.\n"
+"류창우 <cwryu@debian.org>, 2007, 2008, 2015."
+
+#. (itstool) path: page/title
+#: C/absolute.page:9
+msgid "Absolute Values"
+msgstr "절대값"
+
+#. (itstool) path: page/p
+#: C/absolute.page:11
+msgid ""
+"Absolute values are calculated using the | symbol or abs <link xref="
+"\"function\">function</link>."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/absolute.page:15
+msgid "|−1|"
+msgstr "|−1|"
+
+#. (itstool) path: example/p
+#: C/absolute.page:18
+msgid "abs (−1)"
+msgstr "abs (−1)"
+
+#. (itstool) path: page/title
+#: C/base.page:9 C/conv-base.page:9
+msgid "Number Bases"
+msgstr "기수"
+
+#. (itstool) path: page/p
+#: C/base.page:11
+msgid ""
+"To enter numbers in a particular number base use <link xref=\"superscript"
+"\">subscript numbers</link>. The following numbers are equivalent."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/base.page:16
+msgid "1001011₂"
+msgstr "1001011₂"
+
+#. (itstool) path: example/p
+#: C/base.page:19
+msgid "113₈"
+msgstr "113₈"
+
+#. (itstool) path: example/p
+#: C/base.page:22
+msgid "75"
+msgstr "75"
+
+#. (itstool) path: example/p
+#: C/base.page:25
+msgid "4B₁₆"
+msgstr "4B₁₆"
+
+#. (itstool) path: page/p
+#: C/base.page:29
+msgid ""
+"When in <link xref=\"mouse\">programming mode</link>, use the drop-down menu "
+"to change the base of the calculation."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/base.page:32
+msgid ""
+"Keyboard shortcuts can be used to switch to <gui>Binary</gui> "
+"(<keyseq><key>Ctrl</key><key>B</key></keyseq>), <gui>Octal</gui> "
+"(<keyseq><key>Ctrl</key><key>O</key></keyseq>), <gui>Decimal</gui> "
+"(<keyseq><key>Ctrl</key><key>D</key></keyseq>) and <gui>Hexadecimal</gui> "
+"(<keyseq><key>Ctrl</key><key>H</key></keyseq>) modes."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/base.page:35
+msgid ""
+"To convert numbers to other base on the fly, <link xref=\"conv-base\">Number "
+"Base conversion</link> can be used."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/boolean.page:9
+msgid "Boolean Algebra"
+msgstr "불리언 대수"
+
+#. (itstool) path: page/p
+#: C/boolean.page:11
+msgid "Boolean algebra can be calculated using the AND, OR and XOR operators."
+msgstr "AND, OR, XOR 연산자를 이용해 불리언 대수를 계산할 수 있습니다."
+
+#. (itstool) path: example/p
+#: C/boolean.page:15
+msgid "010011₂ AND 110101₂"
+msgstr "010011₂ AND 110101₂"
+
+#. (itstool) path: page/p
+#: C/boolean.page:19
+msgid ""
+"Buttons for these symbols are available in <link xref=\"mouse\">programming "
+"mode</link>."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/boolean.page:22
+msgid ""
+"The NOT <link xref=\"function\">function</link> inverts the bits in a "
+"number. The word size is set from the <guiseq><gui>Calculator</"
+"gui><gui>Preferences</gui></guiseq> menu."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/boolean.page:27
+msgid "NOT 010011₂"
+msgstr "NOT 010011₂"
+
+#. (itstool) path: page/title
+#: C/complex.page:9
+msgid "Complex Numbers"
+msgstr "복소수"
+
+#. (itstool) path: page/p
+#: C/complex.page:11
+msgid "Complex numbers are not supported in <app>Calculator</app>."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/conv-base.page:11
+msgid ""
+"To convert the number to a different base representation use the <em>in</em> "
+"operator."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/conv-base.page:15
+msgid "12 in hex"
+msgstr "12 in hex"
+
+#. (itstool) path: example/p
+#: C/conv-base.page:18
+msgid "5 in binary"
+msgstr "5 in binary"
+
+#. (itstool) path: example/p
+#: C/conv-base.page:21
+msgid "1A₁₆ in dec"
+msgstr "1A₁₆ in dec"
+
+#. (itstool) path: example/p
+#: C/conv-base.page:24
+msgid "1010₂ in octal"
+msgstr "1010₂ in octal"
+
+#. (itstool) path: note/p
+#: C/conv-base.page:29
+msgid "Number Base conversions must be performed using the keyboard."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/conv-character.page:9
+msgid "Character Codes"
+msgstr "문자 코드"
+
+#. (itstool) path: page/p
+#: C/conv-character.page:11
+msgid ""
+"When in <link xref=\"mouse\">programming mode</link> the <gui>á</gui> button "
+"opens a dialog to convert characters to character codes."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/conv-character.page:15
+msgid "Characters cannot be converted using the keyboard."
+msgstr ""
+
+#. (itstool) path: credit/name
+#: C/conv-currency.page:10 C/index.page:8
+msgid "Robert Ancell"
+msgstr "Robert Ancell"
+
+#. (itstool) path: credit/years
+#: C/conv-currency.page:12 C/conv-currency.page:17
+msgid "2010"
+msgstr "2010"
+
+#. (itstool) path: credit/name
+#: C/conv-currency.page:15
+msgid "Robin Sonefors"
+msgstr "Robin Sonefors"
+
+#. (itstool) path: credit/name
+#: C/conv-currency.page:20 C/power.page:11
+msgid "Ekaterina Gerasimova"
+msgstr "Ekaterina Gerasimova"
+
+#. (itstool) path: credit/years
+#: C/conv-currency.page:22
+msgid "2014"
+msgstr "2014"
+
+#. (itstool) path: page/title
+#: C/conv-currency.page:27
+msgid "Currency"
+msgstr "통화"
+
+#. (itstool) path: page/p
+#: C/conv-currency.page:29
+msgid ""
+"To convert currencies, enter the <link xref=\"financial\">financial mode</"
+"link>, and use the currency controls."
+msgstr "통화 변환을 하려면, <link xref=\"financial\">재무 모드</link>로 들어가서 통화 기호를 사용합니다."
+
+#. (itstool) path: item/p
+#: C/conv-currency.page:34
+msgid "Enter the amount which you want to convert."
+msgstr ""
+
+#. (itstool) path: item/p
+#: C/conv-currency.page:37
+msgid ""
+"Select the currency that you want to convert from and the currency that you "
+"want to convert to from the drop down below."
+msgstr ""
+
+#. (itstool) path: note/p
+#: C/conv-currency.page:43
+msgid ""
+"Currency information is approximate and should not be used for making "
+"financial decisions."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/conv-length.page:9
+msgid "Length/Area/Volume"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/conv-length.page:11
+msgid ""
+"To convert between length, area and volume units use the <em>in</em> "
+"operator."
+msgstr "길이, 넓이, 부피를 변환하려면 <em>in</em> 연산자를 사용합니다."
+
+#. (itstool) path: example/p
+#: C/conv-length.page:15
+msgid "6 meters in inches"
+msgstr "6 meters in inches"
+
+#. (itstool) path: example/p
+#: C/conv-length.page:18
+msgid "1 acre in cm²"
+msgstr "1 acre in cm²"
+
+#. (itstool) path: example/p
+#: C/conv-length.page:21
+msgid "1 pint in mL"
+msgstr "1 pint in mL"
+
+#. (itstool) path: note/p
+#: C/conv-length.page:26
+msgid "Length/Area/Volume conversions must be performed using the keyboard."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/conv-time.page:9
+msgid "Time"
+msgstr "시간"
+
+#. (itstool) path: page/p
+#: C/conv-time.page:11
+msgid "To convert between time use the <em>in</em> operator."
+msgstr "시간을 변환하려면 <em>in</em> 연산자를 사용합니다."
+
+#. (itstool) path: example/p
+#: C/conv-time.page:15
+msgid "3 years in hours"
+msgstr "3 years in hours"
+
+#. (itstool) path: note/p
+#: C/conv-time.page:20
+msgid "Time conversions must be performed using the keyboard."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/conv-weight.page:9
+msgid "Mass"
+msgstr "도량형"
+
+#. (itstool) path: page/p
+#: C/conv-weight.page:11
+msgid "To convert between mass use the <em>in</em> operator."
+msgstr "도량형을 변환하려면 <em>in</em> 연산자를 사용합니다."
+
+#. (itstool) path: example/p
+#: C/conv-weight.page:15
+msgid "1kg in pounds"
+msgstr "1kg in pounds"
+
+#. (itstool) path: note/p
+#: C/conv-weight.page:20
+msgid "Mass conversions must be performed using the keyboard."
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/equation.page:7
+msgctxt "sort"
+msgid "0"
+msgstr "0"
+
+#. (itstool) path: page/title
+#: C/equation.page:11
+msgid "Basic Equations"
+msgstr "기본 식"
+
+#. (itstool) path: page/p
+#: C/equation.page:13
+msgid ""
+"Equations are entered in standard mathematical form. For example to add 7 "
+"and 2 enter the following:"
+msgstr "식은 표준 수학 형태로 입력합니다. 예를 들어 7과 2를 더하려면 다음과 같이 입력합니다:"
+
+#. (itstool) path: example/p
+#: C/equation.page:18
+msgid "7+2"
+msgstr "7+2"
+
+#. (itstool) path: page/p
+#: C/equation.page:22
+msgid ""
+"To solve, press the <gui>=</gui> button with your mouse or the <key>Enter</"
+"key> key on your keyboard."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/equation.page:25
+msgid ""
+"Calculations are performed in mathematical order - multiplication and "
+"division are performed before addition and subtraction. The following "
+"equation solves to 1 (3×2 = 6, 7−6 = 1)."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/equation.page:30
+msgid "7−3×2"
+msgstr "7−3×2"
+
+#. (itstool) path: page/p
+#: C/equation.page:34
+msgid ""
+"To change the order of calculation use parenthesis. The following equation "
+"solves to 8 (7−3 = 4, 4×2 = 8)."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/equation.page:39
+msgid "(7−3)×2"
+msgstr "(7−3)×2"
+
+#. (itstool) path: page/p
+#: C/equation.page:43
+msgid ""
+"To clear the display press the <gui>Clr</gui> button or <key>Escape</key>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/factorial.page:9
+msgid "Factorials"
+msgstr "팩토리얼"
+
+#. (itstool) path: page/p
+#: C/factorial.page:11
+msgid ""
+"Factorials are entered using the ! symbol. To calculate the factorial of 6 "
+"enter the following."
+msgstr "! 기호를 사용해 팩토리얼을 입력합니다. 6 팩토리얼을 계산하려면 다음과 같이 씁니다."
+
+#. (itstool) path: example/p
+#: C/factorial.page:16
+msgid "6!"
+msgstr "6!"
+
+#. (itstool) path: page/title
+#: C/factorize.page:9
+msgid "Factorization"
+msgstr "팩토리얼"
+
+#. (itstool) path: page/p
+#: C/factorize.page:11
+msgid ""
+"You can factorize the number currently displayed by pressing the <gui>fact</"
+"gui> button. This button is visible in <link xref=\"mouse\">programming "
+"mode</link>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/financial.page:9
+msgid "Financial Functions"
+msgstr "재무 기능"
+
+#. (itstool) path: page/p
+#: C/financial.page:10
+#, fuzzy
+#| msgid ""
+#| "When you change to Financial mode, the following buttons are displayed "
+#| "above the Basic and Advanced mode buttons:"
+msgid "When in financial mode the following buttons are available."
+msgstr "재무 모드로 바꾸면, 다음 단추를 기본/고급 모드 단추의 위에 표시합니다:"
+
+#. (itstool) path: td/p
+#: C/financial.page:15
+msgid "Ctrm"
+msgstr "Ctrm"
+
+#. (itstool) path: td/p
+#: C/financial.page:16
+#, fuzzy
+#| msgid ""
+#| "Calculates the number of compounding periods necessary to increase an "
+#| "investment of present value <replaceable>pv</replaceable> to a future "
+#| "value of <replaceable>fv</replaceable>, at a fixed interest rate of "
+#| "<replaceable>int</replaceable> per compounding period."
+msgid ""
+"Calculate the number of compounding periods necessary to increase an "
+"investment of present value to a future value, at a fixed interest rate per "
+"compounding period."
+msgstr ""
+"복리 기간별 고정 이율이 <replaceable>int</replaceable>일 때, 투자액의 현재 가"
+"치 <replaceable>pv</replaceable>를 미래 가치 <replaceable>fv</replaceable>로 "
+"증가시키는 데 필요한 복리 기간을 기간별 고정 이율 <replaceable>int</"
+"replaceable>로 계산합니다."
+
+#. (itstool) path: td/p
+#: C/financial.page:19
+msgid "Ddb"
+msgstr "Ddb"
+
+#. (itstool) path: td/p
+#: C/financial.page:20
+#, fuzzy
+#| msgid ""
+#| "Calculates the depreciation allowance on an asset for a specified period "
+#| "of time, using the double-declining balance method."
+msgid ""
+"Calculate the depreciation allowance on an asset for a specified period of "
+"time, using the double-declining balance method."
+msgstr ""
+"지정한 기간 동안 자산에 대한 감가상각 허용치를 이중정률법을 사용하여 계산합니"
+"다."
+
+#. (itstool) path: td/p
+#: C/financial.page:23
+msgid "Fv"
+msgstr "Fv"
+
+#. (itstool) path: td/p
+#: C/financial.page:24
+#, fuzzy
+#| msgid ""
+#| "Calculates the future value of an investment based on a series of equal "
+#| "payments, each of amount <replaceable>pmt</replaceable>, at a periodic "
+#| "interest rate of <replaceable>int</replaceable>, over the number of "
+#| "payment periods in the term."
+msgid ""
+"Calculate the future value of an investment based on a series of equal "
+"payments at a periodic interest rate over the number of payment periods in "
+"the term."
+msgstr ""
+"일정하게 매번 <replaceable>pmt</replaceable>만큼을 예금하고, 그 기간의 이율"
+"이 <replaceable>int</replaceable>일 때 일정한 주어진 예금 기간동안 투자액의 "
+"미래 가치를 계산합니다."
+
+#. (itstool) path: td/p
+#: C/financial.page:27
+msgid "Gpm"
+msgstr "Gpm"
+
+#. (itstool) path: td/p
+#: C/financial.page:28
+msgid ""
+"Calculate the resale price of a product, based on the product cost and the "
+"wanted gross profit margin."
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/financial.page:31
+msgid "Pmt"
+msgstr "Pmt"
+
+#. (itstool) path: td/p
+#: C/financial.page:32
+#, fuzzy
+#| msgid ""
+#| "Calculates the amount of the periodic payment of a loan, where payments "
+#| "are made at the end of each payment period."
+msgid ""
+"Calculate the amount of the periodic payment of a loan, where payments are "
+"made at the end of each payment period."
+msgstr ""
+"대출의 매 주기마다 상환하는 액수를 계산합니다. 매 주기의 마지막 날에 상환한다"
+"고 가정합니다."
+
+#. (itstool) path: td/p
+#: C/financial.page:35
+msgid "Pv"
+msgstr "Pv"
+
+#. (itstool) path: td/p
+#: C/financial.page:36
+#, fuzzy
+#| msgid ""
+#| "Calculates the present value of an investment based on a series of equal "
+#| "payments, each of amount <replaceable>pmt</replaceable>, discounted at a "
+#| "periodic interest rate of <replaceable>int</replaceable>, over the number "
+#| "of payment periods in the term."
+msgid ""
+"Calculate the present value of an investment based on a series of equal "
+"payments discounted at a periodic interest rate over the number of payment "
+"periods in the term."
+msgstr ""
+"일정하게 매번 <replaceable>pmt</replaceable>만큼을 예금하고, 그 기간의 정기 "
+"할인율이 <replaceable>int</replaceable>일 때 일정한 주어진 예금 기간동안 투자"
+"액의 현재 가치를 계산합니다."
+
+#. (itstool) path: td/p
+#: C/financial.page:39
+msgid "Rate"
+msgstr "Rate"
+
+#. (itstool) path: td/p
+#: C/financial.page:40
+#, fuzzy
+#| msgid ""
+#| "Calculates the periodic interest necessary to increase an investment of "
+#| "present value <replaceable>pv</replaceable> to a future value of "
+#| "<replaceable>fv</replaceable>, over the number of compounding periods in "
+#| "<replaceable>term</replaceable>."
+msgid ""
+"Calculate the periodic interest necessary to increase an investment to a "
+"future value, over the number of compounding periods."
+msgstr ""
+"<replaceable>term</replaceable>의 복리 기간동안, 현재 가치 <replaceable>pv</"
+"replaceable>만큼의 투자액을 미래 가치 <replaceable>fv</replaceable>로 늘리는 "
+"데 필요한 정기 이자를 계산합니다."
+
+#. (itstool) path: td/p
+#: C/financial.page:43
+msgid "Sln"
+msgstr "Sln"
+
+#. (itstool) path: td/p
+#: C/financial.page:44
+#, fuzzy
+#| msgid ""
+#| "Calculates the straight-line depreciation of an asset for one period. The "
+#| "depreciable cost is <replaceable>cost</replaceable> - "
+#| "<replaceable>salvage</replaceable>. The straight-line method of "
+#| "depreciation divides the depreciable cost evenly over the useful life of "
+#| "an asset. The useful life is the number of periods, typically years, over "
+#| "which an asset is depreciated."
+msgid ""
+"Calculate the straight-line depreciation of an asset for one period. The "
+"straight-line method of depreciation divides the depreciable cost evenly "
+"over the useful life of an asset. The useful life is the number of periods, "
+"typically years, over which an asset is depreciated."
+msgstr ""
+"한 기간 동안 자산의 정액 감가상각을 계산합니다. 감가 상각 비용은 "
+"<replaceable>cost</replaceable> - <replaceable>salvage</replaceable>입니다. "
+"감가상각 정액법은 감가상각될 수 있는 비용을 자산의 수명으로 균등하게 나눕니"
+"다. 자산의 수명은 자산이 감가상각되는 기간을 (일반적으로 연수) 말합니다."
+
+#. (itstool) path: td/p
+#: C/financial.page:47
+msgid "Syd"
+msgstr "Syd"
+
+#. (itstool) path: td/p
+#: C/financial.page:48
+#, fuzzy
+#| msgid ""
+#| "Calculates the depreciation allowance on an asset for a specified period "
+#| "of time, using the Sum-Of-The-Years'-Digits method. This method of "
+#| "depreciation accelerates the rate of depreciation, so that more "
+#| "depreciation expense occurs in earlier periods than in later ones. The "
+#| "depreciable cost is <replaceable>cost</replaceable> - "
+#| "<replaceable>salvage</replaceable>. The useful life is the number of "
+#| "periods, typically years, over which an asset is depreciated."
+msgid ""
+"Calculate the depreciation allowance on an asset for a specified period of "
+"time, using the Sum-of-the-Years'-Digits method. This method of depreciation "
+"accelerates the rate of depreciation, so that more depreciation expense "
+"occurs in earlier periods than in later ones. The useful life is the number "
+"of periods, typically years, over which an asset is depreciated."
+msgstr ""
+"연수합계 방법을 사용해, 일정 기간동안 자산의 감가상각 허용치를 계산합니다. "
+"이 감가상각 방식은 감가상각의 속도를 바꿔서, 나중 기간보다 앞의 기간에서 감가"
+"상각 속도가 빨라지게 만듭니다. 감가상각 비용은 <replaceable>cost</"
+"replaceable> - <replaceable>salvage</replaceable>입니다. 수명은 자산이 감가상"
+"각되는 기간을 (일반적으로 연수) 말합니다."
+
+#. (itstool) path: td/p
+#: C/financial.page:51
+msgid "Term"
+msgstr "Term"
+
+#. (itstool) path: td/p
+#: C/financial.page:52
+#, fuzzy
+#| msgid ""
+#| "Calculates the number of payment periods that are necessary during the "
+#| "term of an ordinary annuity, to accumulate a future value of "
+#| "<replaceable>fv</replaceable>, at a periodic interest rate of "
+#| "<replaceable>int</replaceable>. Each payment is equal to amount "
+#| "<replaceable>pmt</replaceable>."
+msgid ""
+"Calculate the number of payment periods that are necessary during the term "
+"of an ordinary annuity, to accumulate a future value, at a periodic interest "
+"rate."
+msgstr ""
+"일반적인 연금 기간 동안 그 이율이 <replaceable>int</replaceable>일 때 미래 가"
+"지 <replaceable>fv</replaceable>만큼 적립하는 데 필요한 예금 기간을 계산합니"
+"다. 매번 예금하는 액수는 <replaceable>pmt</replaceable>입니다."
+
+#. (itstool) path: note/p
+#: C/financial.page:56
+msgid "Financial functions cannot be performed using the keyboard."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/functions.page:9
+msgid "Functions"
+msgstr "함수"
+
+#. (itstool) path: page/p
+#: C/functions.page:11
+msgid ""
+"Functions can be used by inserting the name of the function followed by "
+"function arguments. <app>Calculator</app> also support user-defined "
+"functions. If the argument is not a number or <link xref=\"variable\">a "
+"single variable</link> then write each argument separated by semicolon and "
+"use parenthesis around the argument list."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/functions.page:16
+msgid "sin 30"
+msgstr "sin 30"
+
+#. (itstool) path: example/p
+#: C/functions.page:19
+msgid "abs (5−9)"
+msgstr "abs (5−9)"
+
+#. (itstool) path: example/p
+#: C/functions.page:22
+msgid "fun (9;10)"
+msgstr "fun (9;10)"
+
+#. (itstool) path: page/p
+#: C/functions.page:26
+msgid ""
+"To add a new function type the function in the format as given below. A "
+"function name and arguments must only contain upper or lower case "
+"characters. The part after @ is the function description which is optional."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/functions.page:30
+msgid ""
+"SimpleInterest (principal; rate; time) = principal * rate * time @ Simple "
+"Interest formula"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/functions.page:34
+msgid "Functions can also be added and inserted using the f(x) button."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/functions.page:38
+msgid ""
+"Click on f(x). Type the function name in the box, choose the number of "
+"arguments and click on the plus sign button next to it. On the calculator "
+"screen type the function expression and press <key>Enter</key>."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/functions.page:43
+msgid "Click on f(x). Choose the function and click on it."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/functions.page:47
+msgid "The following functions are defined."
+msgstr "다음 함수가 정의되어 있습니다."
+
+#. (itstool) path: td/p
+#: C/functions.page:52
+msgid "abs"
+msgstr "abs"
+
+#. (itstool) path: td/p
+#: C/functions.page:53
+msgid "<link xref=\"absolute\">Absolute Value</link>"
+msgstr "<link xref=\"absolute\">절대값</link>"
+
+#. (itstool) path: td/p
+#: C/functions.page:56
+msgid "cos"
+msgstr "cos"
+
+#. (itstool) path: td/p
+#: C/functions.page:57
+msgid "<link xref=\"trigonometry\">Cosine</link>"
+msgstr "<link xref=\"trigonometry\">코사인</link>"
+
+#. (itstool) path: td/p
+#: C/functions.page:60
+msgid "cosh"
+msgstr "cosh"
+
+#. (itstool) path: td/p
+#: C/functions.page:61
+msgid "<link xref=\"trigonometry\">Hyperbolic Cosine</link>"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/functions.page:64
+msgid "frac"
+msgstr "frac"
+
+#. (itstool) path: td/p
+#: C/functions.page:65
+msgid "Fractional Component"
+msgstr "분수 부분"
+
+#. (itstool) path: td/p
+#: C/functions.page:68
+msgid "int"
+msgstr "int"
+
+#. (itstool) path: td/p
+#: C/functions.page:69
+msgid "Integer Component"
+msgstr "정수 부분"
+
+#. (itstool) path: td/p
+#: C/functions.page:72
+msgid "ln"
+msgstr "ln"
+
+#. (itstool) path: td/p
+#: C/functions.page:73
+msgid "<link xref=\"logarithm\">Natural Logarithm</link>"
+msgstr "<link xref=\"logarithm\">자연 로그</link>"
+
+#. (itstool) path: td/p
+#: C/functions.page:76
+msgid "log"
+msgstr "log"
+
+#. (itstool) path: td/p
+#: C/functions.page:77
+msgid "<link xref=\"logarithm\">Logarithm</link>"
+msgstr "<link xref=\"logarithm\">로그</link>"
+
+#. (itstool) path: td/p
+#: C/functions.page:80
+msgid "not"
+msgstr "not"
+
+#. (itstool) path: td/p
+#: C/functions.page:81
+msgid "<link xref=\"boolean\">Boolean NOT</link>"
+msgstr "<link xref=\"boolean\">불리언 NOT</link>"
+
+#. (itstool) path: td/p
+#: C/functions.page:84
+msgid "ones"
+msgstr "ones"
+
+#. (itstool) path: td/p
+#: C/functions.page:85
+msgid "Ones complement"
+msgstr "1의 보수"
+
+#. (itstool) path: td/p
+#: C/functions.page:88
+msgid "sin"
+msgstr "sin"
+
+#. (itstool) path: td/p
+#: C/functions.page:89
+msgid "<link xref=\"trigonometry\">Sine</link>"
+msgstr "<link xref=\"trigonometry\">사인</link>"
+
+#. (itstool) path: td/p
+#: C/functions.page:92
+msgid "sinh"
+msgstr "sinh"
+
+#. (itstool) path: td/p
+#: C/functions.page:93
+msgid "<link xref=\"trigonometry\">Hyperbolic Sine</link>"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/functions.page:96
+msgid "sqrt"
+msgstr "sqrt"
+
+#. (itstool) path: td/p
+#: C/functions.page:97
+msgid "<link xref=\"power\">Square Root</link>"
+msgstr "<link xref=\"power\">제곱근</link>"
+
+#. (itstool) path: td/p
+#: C/functions.page:100
+msgid "tan"
+msgstr "tan"
+
+#. (itstool) path: td/p
+#: C/functions.page:101
+msgid "<link xref=\"trigonometry\">Tangent</link>"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/functions.page:104
+msgid "tanh"
+msgstr "tanh"
+
+#. (itstool) path: td/p
+#: C/functions.page:105
+msgid "<link xref=\"trigonometry\">Hyperbolic Tangent</link>"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/functions.page:108
+msgid "twos"
+msgstr "twos"
+
+#. (itstool) path: td/p
+#: C/functions.page:109
+msgid "Twos complement"
+msgstr "2의 보수"
+
+#. (itstool) path: page/title
+#: C/index.page:14
+msgid "<_:media-1/> Calculator Help"
+msgstr "<_:media-1/> 계산기 도움말"
+
+#. (itstool) path: section/title
+#: C/index.page:17
+msgid "User Interface"
+msgstr ""
+
+#. (itstool) path: section/title
+#: C/index.page:21
+#, fuzzy
+#| msgid "Subtraction"
+msgid "Equations"
+msgstr "빼기"
+
+#. (itstool) path: section/title
+#: C/index.page:25
+msgid "Numbers"
+msgstr "숫자"
+
+#. (itstool) path: section/title
+#: C/index.page:29
+msgid "Conversions"
+msgstr "변환"
+
+#. (itstool) path: section/title
+#: C/index.page:33
+msgid "Financial Calculations"
+msgstr "재무 계산"
+
+#. (itstool) path: page/title
+#: C/keyboard.page:9
+msgid "Using the Keyboard"
+msgstr "키보드 사용"
+
+#. (itstool) path: page/p
+#: C/keyboard.page:11
+msgid "All mathematical equations can be entered using the keyboard."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/keyboard.page:14
+msgid ""
+"The following key combinations can be used to enter keys that may not be "
+"available on your keyboard."
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/keyboard.page:19
+msgid "×"
+msgstr "×"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:20
+msgid "<key>*</key>"
+msgstr "<key>*</key>"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:23
+msgid "÷"
+msgstr "÷"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:24
+msgid "<key>/</key>"
+msgstr "<key>/</key>"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:27
+msgid "^"
+msgstr "^"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:28
+msgid "<key>*</key> twice"
+msgstr "<key>*</key> 두번"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:31
+msgid "√"
+msgstr "√"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:32
+msgid "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>R</key></keyseq>"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:35 C/variables.page:48
+msgid "π"
+msgstr "π"
+
+#. (itstool) path: td/p
+#: C/keyboard.page:36
+msgid "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+msgstr "<keyseq><key>Ctrl</key><key>P</key></keyseq>"
+
+#. (itstool) path: page/p
+#: C/keyboard.page:39
+msgid ""
+"To enter <link xref=\"superscript\">superscript numbers</link> use "
+"<keyseq><key>Ctrl</key>number</keyseq>, for subscript use <keyseq><key>Alt</"
+"key>number</keyseq>."
+msgstr ""
+
+#. (itstool) path: p/link
+#: C/legal.xml:4
+msgid "Creative Commons Attribution-Share Alike 3.0 Unported License"
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/legal.xml:3
+msgid "This work is licensed under a <_:link-1/>."
+msgstr ""
+
+#. (itstool) path: license/p
+#: C/legal.xml:6
+msgid ""
+"As a special exception, the copyright holders give you permission to copy, "
+"modify, and distribute the example code contained in this document under the "
+"terms of your choosing, without restriction."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/logarithm.page:9
+msgid "Logarithms"
+msgstr "로그"
+
+#. (itstool) path: page/p
+#: C/logarithm.page:11
+msgid ""
+"Logarithms can be calculated using the log <link xref=\"function\">function</"
+"link>."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/logarithm.page:15
+msgid "log 100"
+msgstr "log 100"
+
+#. (itstool) path: page/p
+#: C/logarithm.page:19
+msgid ""
+"To calculate a logarithm in a different base use a <link xref=\"superscript"
+"\">subscript number</link> after the function."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/logarithm.page:23
+msgid "log₂ 32"
+msgstr "log₂ 32"
+
+#. (itstool) path: page/p
+#: C/logarithm.page:27
+msgid "To calculate a natural logarithm use the ln function."
+msgstr "자연 로그를 계산하려면 ln 함수를 사용합니다."
+
+#. (itstool) path: example/p
+#: C/logarithm.page:31
+msgid "ln 1.32"
+msgstr "ln 1.32"
+
+#. (itstool) path: page/p
+#: C/logarithm.page:35
+msgid ""
+"Euler's number can be entered by using the <link xref=\"variable\">variable</"
+"link> e."
+msgstr "오일러 수는 <link xref=\"variable\">변수</link> e를 사용해 입력합니다."
+
+#. (itstool) path: example/p
+#: C/logarithm.page:39
+msgid "e^1.32"
+msgstr "e^1.32"
+
+#. (itstool) path: page/title
+#: C/modulus.page:9
+msgid "Modulus Division"
+msgstr "나머지 나누기"
+
+#. (itstool) path: page/p
+#: C/modulus.page:11
+msgid "Modulus division is performed using the mod operator."
+msgstr "mod 연산자를 사용해 나머지 나누기를 합니다."
+
+#. (itstool) path: example/p
+#: C/modulus.page:15
+msgid "9 mod 5"
+msgstr "9 mod 5"
+
+#. (itstool) path: page/title
+#: C/mouse.page:9
+msgid "Using the Mouse"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/mouse.page:11
+msgid ""
+"All equations can be entered using the mouse. To access all buttons there "
+"are a number of modes that can be selected from the <gui>Mode</gui> menu."
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/mouse.page:17
+msgid "Basic"
+msgstr "기본"
+
+#. (itstool) path: td/p
+#: C/mouse.page:18
+msgid ""
+"Provides buttons suitable for <link xref=\"equation\">basic equations</link>"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/mouse.page:21
+msgid "Advanced"
+msgstr "고급"
+
+#. (itstool) path: td/p
+#: C/mouse.page:22
+msgid ""
+"Provides buttons suitable for advanced mathematics such as <link xref="
+"\"trigonometry\"/>"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/mouse.page:25
+msgid "Financial"
+msgstr "재무"
+
+#. (itstool) path: td/p
+#: C/mouse.page:26
+msgid ""
+"Provides buttons suitable for <link xref=\"financial\">financial equations</"
+"link>"
+msgstr "<link xref=\"financial\">재무 계산</link>에 적합한 단추가 나타납니다"
+
+#. (itstool) path: td/p
+#: C/mouse.page:29
+msgid "Programming"
+msgstr "프로그래밍"
+
+#. (itstool) path: td/p
+#: C/mouse.page:30
+msgid "Provides buttons suitable for computer programmers"
+msgstr "컴퓨터 프로그래머에 적합한 단추가 나타납니다"
+
+#. (itstool) path: page/title
+#: C/number-display.page:9
+msgid "Result Format"
+msgstr "결과 형식"
+
+#. (itstool) path: page/p
+#: C/number-display.page:11
+msgid ""
+"The format used to display results can be changed from the "
+"<guiseq><gui>Calculator</gui><gui>Preferences</gui></guiseq> menu."
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/number-display.page:16
+msgid "<gui>Automatic</gui>"
+msgstr "<gui>자동</gui>"
+
+#. (itstool) path: td/p
+#: C/number-display.page:17
+msgid ""
+"Small results are displayed as <gui>Fixed</gui> notation while long results "
+"are displayed as <gui>Scientific</gui> notation"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/number-display.page:20
+msgid "<gui>Fixed</gui>"
+msgstr "<gui>고정</gui>"
+
+#. (itstool) path: td/p
+#: C/number-display.page:21
+msgid "Results are always displayed as decimal numbers"
+msgstr "결과를 십진수로 표시합니다"
+
+#. (itstool) path: td/p
+#: C/number-display.page:24
+msgid "<gui>Scientific</gui>"
+msgstr "<gui>과학</gui>"
+
+#. (itstool) path: td/p
+#: C/number-display.page:25
+msgid ""
+"Results are displayed in <link xref=\"scientific\">scientific notation</link>"
+msgstr "결과를 <link xref=\"scientific\">과학 표기</link>로 표시합니다"
+
+#. (itstool) path: td/p
+#: C/number-display.page:28
+msgid "<gui>Engineering</gui>"
+msgstr ""
+
+#. (itstool) path: td/p
+#: C/number-display.page:29
+#, fuzzy
+#| msgid ""
+#| "Sets the display type to engineering format. Results are displayed in "
+#| "scientific notation. The exponent is always a multiple of three."
+msgid ""
+"Results are displayed in scientific notation except the exponent is always a "
+"multiple of three"
+msgstr ""
+"표시 형식을 공학 형식으로 설정합니다. 결과는 공학 표기법으로 표시합니다. 지수"
+"는 항상 3의 제곱입니다."
+
+#. (itstool) path: page/p
+#: C/number-display.page:32
+msgid ""
+"The number of decimal places, if trailing zeroes and if thousands separators "
+"are shown can also be configured."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/percentage.page:9
+msgid "Percentages"
+msgstr "퍼센트"
+
+#. (itstool) path: page/p
+#: C/percentage.page:11
+msgid "Percentages are calculated using the % symbol."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/percentage.page:14
+msgid ""
+"When added or subtracted the percentage symbol resolves to one percent of "
+"the value being added or subtracted from. The following equation calculates "
+"the price of a $140 item with 15% tax (140 + (15÷100)×140)."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/percentage.page:19
+msgid "140+15%"
+msgstr "140+15%"
+
+#. (itstool) path: page/p
+#: C/percentage.page:23
+msgid ""
+"In all other cases the percentage symbol resolves to a fraction out of 100. "
+"The following equation calculates one quarter of 80 apples ((25÷100)×80)."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/percentage.page:28
+msgid "25%×80"
+msgstr "25%×80"
+
+#. (itstool) path: credit/years
+#: C/power.page:13 C/power.page:18
+msgid "2015"
+msgstr "2015"
+
+#. (itstool) path: credit/name
+#: C/power.page:16
+msgid "Sebastian Rasmussen"
+msgstr "Sebastian Rasmussen"
+
+#. (itstool) path: info/desc
+#: C/power.page:21
+msgid "Learn to enter roots and powers into the calculator."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/power.page:24
+msgid "Powers and Roots"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/power.page:26
+msgid ""
+"Powers are entered by putting a <link xref=\"superscript\">superscript "
+"number</link> after the value."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/power.page:30
+msgid "5²"
+msgstr "5²"
+
+#. (itstool) path: page/p
+#: C/power.page:33
+msgid ""
+"The inverse of a number can be entered using the inverse symbol ⁻¹ "
+"(<keyseq><key>Ctrl</key><key>I</key></keyseq>)."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/power.page:37
+msgid "3⁻¹"
+msgstr "3⁻¹"
+
+#. (itstool) path: page/p
+#: C/power.page:40
+msgid ""
+"Powers can also be calculated using the ^ symbol. This allows the power to "
+"be an equation."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/power.page:44
+msgid "5^(6−2)"
+msgstr "5^(6−2)"
+
+#. (itstool) path: page/p
+#: C/power.page:47
+msgid ""
+"If your keyboard does not have a <key>^</key> key you can use <key>*</key> "
+"twice."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/power.page:50
+msgid ""
+"Square roots can be calculated using the √ symbol (<keyseq><key>Ctrl</"
+"key><key>R</key></keyseq>)."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/power.page:54
+msgid "√2"
+msgstr "√2"
+
+#. (itstool) path: page/p
+#: C/power.page:57
+msgid ""
+"n-th roots can be calculated by putting a <link xref=\"superscript"
+"\">subscript number</link> before the root sign."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/power.page:61
+msgid "₃√2"
+msgstr "₃√2"
+
+#. (itstool) path: page/title
+#: C/scientific.page:9
+msgid "Scientific Notation"
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/scientific.page:11
+msgid ""
+"To enter numbers in scientific format use the <gui>×10x</gui> button "
+"(<keyseq><key>Ctrl</key><key>E</key></keyseq>). The <link xref=\"superscript"
+"\">number mode</link> automatically changes to superscript. To enter "
+"2×10¹⁰⁰, start by entering the mantissa (2):"
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/scientific.page:17
+msgid "2"
+msgstr "2"
+
+#. (itstool) path: page/p
+#: C/scientific.page:21
+msgid ""
+"Then press the scientific notation button (or press <keyseq><key>Ctrl</"
+"key><key>E</key></keyseq>):"
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/scientific.page:25
+msgid "2×10"
+msgstr "2×10"
+
+#. (itstool) path: page/p
+#: C/scientific.page:29
+msgid "Then enter the exponent (100):"
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/scientific.page:33
+msgid "2×10¹⁰⁰"
+msgstr "2×10¹⁰⁰"
+
+#. (itstool) path: page/p
+#: C/scientific.page:37
+msgid ""
+"To show results in scientific form change the <link xref=\"number-display"
+"\">result format</link>."
+msgstr ""
+
+#. (itstool) path: info/title
+#: C/superscript.page:7
+msgctxt "sort"
+msgid "_"
+msgstr "_"
+
+#. (itstool) path: page/title
+#: C/superscript.page:11
+msgid "Superscript and Subscript"
+msgstr "위 첨자 밑 아래 첨자"
+
+#. (itstool) path: page/p
+#: C/superscript.page:13
+msgid ""
+"Some equations may require numbers to be entered in superscript or subscript "
+"form. e.g."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/superscript.page:17
+msgid "x³+2x²−5"
+msgstr "x³+2x²−5"
+
+#. (itstool) path: page/p
+#: C/superscript.page:21
+msgid ""
+"To enter superscript numbers with the mouse select the number mode using the "
+"the <gui>↑n</gui> and <gui>↓n</gui> buttons. When one of these modes is "
+"active clicking the number buttons will enter numbers in superscript or "
+"subscript. To return to normal number mode click the active button."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/superscript.page:26
+msgid ""
+"To enter superscript numbers with the keyboard hold down <key>Ctrl</key> "
+"while entering the number. Hold <key>Alt</key> for subscript."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/superscript.page:30
+msgid ""
+"The number mode returns to normal when entering the next non-number "
+"character (e.g. +)."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/trigonometry.page:9
+#, fuzzy
+#| msgid "Trigonometric type"
+msgid "Trigonometry"
+msgstr "삼각 함수 형식"
+
+#. (itstool) path: page/p
+#: C/trigonometry.page:11
+msgid ""
+"Trigonometry can be performed using the sin, cos, and tan <link xref="
+"\"function\">function</link>."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/trigonometry.page:15
+msgid "sin 45"
+msgstr "sin 45"
+
+#. (itstool) path: page/p
+#: C/trigonometry.page:19
+msgid ""
+"The angle units used can be changed from the <guiseq><gui>Calculator</"
+"gui><gui>Preferences</gui></guiseq> menu. Trigonometry buttons are visible "
+"when in <link xref=\"mouse\">Advanced mode</link>."
+msgstr ""
+
+#. (itstool) path: page/p
+#: C/trigonometry.page:23
+msgid ""
+"Hyperbolic functions are available by adding \"h\" to the end of a function."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/trigonometry.page:27
+msgid "sinh 0.34"
+msgstr "sinh 0.34"
+
+#. (itstool) path: page/p
+#: C/trigonometry.page:31
+msgid ""
+"Inverse functions are entered either using the inverse symbol ⁻¹ "
+"(<keyseq><key>Ctrl</key><key>I</key></keyseq>) or the \"a\" form of the "
+"function. The following two equations are equivalent."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/trigonometry.page:36
+msgid "sin⁻¹ 0.5"
+msgstr "sin⁻¹ 0.5"
+
+#. (itstool) path: example/p
+#: C/trigonometry.page:39
+msgid "asin 0.5"
+msgstr "asin 0.5"
+
+#. (itstool) path: page/p
+#: C/trigonometry.page:43
+msgid ""
+"To enter <link xref=\"variable\">π</link> with the keyboard use "
+"<keyseq><key>Ctrl</key><key>P</key></keyseq>."
+msgstr ""
+
+#. (itstool) path: page/title
+#: C/variables.page:9
+msgid "Variables"
+msgstr "변수"
+
+#. (itstool) path: page/p
+#: C/variables.page:11
+msgid ""
+"To assign a value to a variable use the = symbol or choose the variable to "
+"assign to with the <gui>x</gui> button in <link xref=\"mouse\">advanced "
+"mode</link>. A variable name must only contain upper or lower case "
+"characters."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/variables.page:16
+msgid "x=5"
+msgstr "x=5"
+
+#. (itstool) path: example/p
+#: C/variables.page:19
+msgid "value=82"
+msgstr "value=82"
+
+#. (itstool) path: page/p
+#: C/variables.page:23
+msgid ""
+"Variables can be used in any equation and are substituted for their assigned "
+"value. Variables can be inserted using the <gui>x</gui> button."
+msgstr ""
+
+#. (itstool) path: example/p
+#: C/variables.page:28
+msgid "6x+3"
+msgstr "6x+3"
+
+#. (itstool) path: example/p
+#: C/variables.page:31
+msgid "xy−3x+7y−21"
+msgstr "xy−3x+7y−21"
+
+#. (itstool) path: page/p
+#: C/variables.page:35
+msgid "The following variables are always defined."
+msgstr "다음 변수가 이미 정의되어 있습니다."
+
+#. (itstool) path: td/p
+#: C/variables.page:40
+msgid "ans"
+msgstr "ans"
+
+#. (itstool) path: td/p
+#: C/variables.page:41
+msgid "Result of previous calculation"
+msgstr "이전 계산의 결과"
+
+#. (itstool) path: td/p
+#: C/variables.page:44
+msgid "e"
+msgstr "e"
+
+#. (itstool) path: td/p
+#: C/variables.page:45
+msgid "<link xref=\"logarithm\">Euler's Number</link>"
+msgstr "<link xref=\"logarithm\">오일러 수</link>"
+
+#. (itstool) path: td/p
+#: C/variables.page:49
+msgid "<link xref=\"trigonometry\">Pi</link>"
+msgstr "<link xref=\"trigonometry\">Pi</link>"
+
+#. (itstool) path: td/p
+#: C/variables.page:52
+msgid "rand"
+msgstr "rand"
+
+#. (itstool) path: td/p
+#: C/variables.page:53
+msgid "Random value in the range [0,1] (changes on each read)"
+msgstr "[0,1] 범위의 임의의 수(읽을 때마다 달라짐)"

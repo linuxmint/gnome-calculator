@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="complex" xml:lang="lv">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    </info>
+
+	<title>Kompleksie skaitļi</title>
+    
+    <p><app>Kalkulators</app> neatbalsta kompleksos skaitļus.</p>
+</page>

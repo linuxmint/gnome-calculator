@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="variable" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>변수</title>
+    
+    <p>
+    To assign a value to a variable use the = symbol or choose the variable to assign to with the <gui>x</gui> button in <link xref="mouse">advanced mode</link>.
+    A variable name must only contain upper or lower case characters.
+    </p>
+    <example>
+    <p>x=5</p>
+    <p>value=82</p>
+    </example>
+    <p>
+    Variables can be used in any equation and are substituted for their assigned value.
+    Variables can be inserted using the <gui>x</gui> button.
+    </p>
+    <example>
+    <p>6x+3</p>
+    <p>xy−3x+7y−21</p>
+    </example>
+    <p>다음 변수가 이미 정의되어 있습니다.</p>
+    <table>
+    <tr>
+    <td><p>ans</p></td>
+    <td><p>이전 계산의 결과</p></td>
+    </tr>
+    <tr>
+    <td><p>e</p></td>
+    <td><p><link xref="logarithm">오일러 수</link></p></td>
+    </tr>
+    <tr>
+    <td><p>π</p></td>
+    <td><p><link xref="trigonometry">Pi</link></p></td>
+    </tr>
+    <tr>
+    <td><p>rand</p></td>
+    <td><p>[0,1] 범위의 임의의 수(읽을 때마다 달라짐)</p></td>
+    </tr>
+    </table>
+</page>

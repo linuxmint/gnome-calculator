@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="logarithm" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>로그</title>
+    
+    <p>
+    Logarithms can be calculated using the log <link xref="function">function</link>.
+    </p>
+    <example>
+    <p>log 100</p>
+    </example>
+    <p>
+    To calculate a logarithm in a different base use a <link xref="superscript">subscript number</link> after the function.
+    </p>
+    <example>
+    <p>log₂ 32</p>
+    </example>
+    <p>자연 로그를 계산하려면 ln 함수를 사용합니다.</p>
+    <example>
+    <p>ln 1.32</p>
+    </example>
+    <p>오일러 수는 <link xref="variable">변수</link> e를 사용해 입력합니다.</p>
+    <example>
+    <p>e^1.32</p>
+    </example>
+</page>

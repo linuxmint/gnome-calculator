@@ -1,0 +1,34 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+[encoding: UTF-8]
+[type: gettext/glade]data/buttons-advanced.ui
+[type: gettext/glade]data/buttons-basic.ui
+[type: gettext/glade]data/buttons-financial.ui
+[type: gettext/glade]data/buttons-programming.ui
+data/gnome-calculator.desktop.in
+data/gnome-calculator.appdata.xml.in
+[type: gettext/glade]data/menu.ui
+data/org.gnome.calculator.gschema.xml
+lib/currency.vala
+lib/equation.vala
+lib/equation-lexer.vala
+lib/equation-parser.vala
+lib/financial.vala
+lib/function-manager.vala
+lib/math-equation.vala
+lib/math-function.vala
+lib/math-variables.vala
+lib/number.vala
+lib/serializer.vala
+lib/unit.vala
+src/gcalccmd.vala
+src/gnome-calculator.vala
+src/math-buttons.vala
+src/math-converter.vala
+src/math-display.vala
+src/math-preferences.vala
+src/math-variable-popup.vala
+src/math-window.vala
+tests/test-equation.vala
+tests/test-number.vala
+tests/test-serializer.vala

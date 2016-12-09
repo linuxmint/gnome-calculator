@@ -1,0 +1,129 @@
+From 5d5e92e2b10e4d4ffe45cb79b340d804bc79a4e0 Mon Sep 17 00:00:00 2001
+From: Robert Ancell <robert.ancell@canonical.com>
+Date: Mon, 20 Oct 2014 16:03:22 -0400
+Subject: [PATCH 1/1] Don't use HeaderBars in Unity
+
+https://bugzilla.gnome.org/show_bug.cgi?id=712831
+---
+ src/Makefile.am           |  1 +
+ src/math-preferences.vala |  8 ++++++--
+ src/math-window.vala      | 35 ++++++++++++++++++++++++++++++-----
+ src/xdg-desktop.vala      | 22 ++++++++++++++++++++++
+ 4 files changed, 59 insertions(+), 7 deletions(-)
+ create mode 100644 src/xdg-desktop.vala
+
+Index: gnome-calculator-3.18.1/src/Makefile.am
+===================================================================
+--- gnome-calculator-3.18.1.orig/src/Makefile.am
++++ gnome-calculator-3.18.1/src/Makefile.am
+@@ -25,6 +25,7 @@ gnome_calculator_SOURCES = \
+ 	math-window.vala \
+ 	math-function-popup.vala \
+ 	math-history.vala \
++	xdg-desktop.vala \
+ 	$(BUILT_SOURCES)
+ 
+ gnome_calculator_VALAFLAGS = \
+Index: gnome-calculator-3.18.1/src/math-preferences.vala
+===================================================================
+--- gnome-calculator-3.18.1.orig/src/math-preferences.vala
++++ gnome-calculator-3.18.1/src/math-preferences.vala
+@@ -21,7 +21,7 @@ public class MathPreferencesDialog : Gtk
+ 
+     public MathPreferencesDialog (MathEquation eq)
+     {
+-        Object(use_header_bar: 1, equation: eq);
++        Object(use_header_bar: is_desktop ("Unity") ? 0 : 1, equation: eq);
+     }
+ 
+     construct
+@@ -30,7 +30,11 @@ public class MathPreferencesDialog : Gtk
+                    _("Preferences"));
+         border_width = 8;
+ 
+-        ((Gtk.HeaderBar) get_header_bar ()).show_close_button = true;
++        if (is_desktop ("Unity"))
++            add_button (/* Label on close button in preferences dialog */
++                        _("_Close"), 0);
++        else
++            ((Gtk.HeaderBar) get_header_bar ()).show_close_button = true;
+ 
+         var grid = new Gtk.Grid ();
+         grid.show ();
+Index: gnome-calculator-3.18.1/src/math-window.vala
+===================================================================
+--- gnome-calculator-3.18.1.orig/src/math-window.vala
++++ gnome-calculator-3.18.1/src/math-window.vala
+@@ -80,15 +80,40 @@ public class MathWindow : Gtk.Applicatio
+         menu_button.relief = Gtk.ReliefStyle.NONE;
+         menu_button.show ();
+ 
++        var main_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
++        add (main_vbox);
++        main_vbox.show ();
++
+         headerbar = new Gtk.HeaderBar ();
+         headerbar.show_close_button = true;
+         headerbar.custom_title = menu_button;
+         headerbar.show ();
+-        set_titlebar (headerbar);
+-
+-        var main_vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 0);
+-        add (main_vbox);
+-        main_vbox.show ();
++        if (!is_desktop ("Unity"))
++            set_titlebar (headerbar);
++        else
++        {
++            var menu = new Menu ();
++            var section = new Menu ();
++            menu.append_submenu (_("Mode"), section);
++            var item = new MenuItem (_("Basic Mode"), null);
++            item.set_action_and_target ("win.mode", "s", "basic");
++            section.append_item (item);
++            item = new MenuItem (_("Advanced Mode"), null);
++            item.set_action_and_target ("win.mode", "s", "advanced");
++            section.append_item (item);
++            item = new MenuItem (_("Financial Mode"), null);
++            item.set_action_and_target ("win.mode", "s", "financial");
++            section.append_item (item);
++            item = new MenuItem (_("Programming Mode"), null);
++            item.set_action_and_target ("win.mode", "s", "programming");
++            section.append_item (item);
++            item = new MenuItem (_("Keyboard Mode"), null);
++            item.set_action_and_target ("win.mode", "s", "keyboard");
++            section.append_item (item);
++            var menubar = new Gtk.MenuBar.from_model (menu);
++            menubar.visible = true;
++            main_vbox.pack_start (menubar, true, true, 0);
++        }
+ 
+         vbox = new Gtk.Box (Gtk.Orientation.VERTICAL, 6);
+         vbox.border_width = 6;
+Index: gnome-calculator-3.18.1/src/xdg-desktop.vala
+===================================================================
+--- /dev/null
++++ gnome-calculator-3.18.1/src/xdg-desktop.vala
+@@ -0,0 +1,22 @@
++/*
++ * Copyright (C) 2014 Robert Ancell.
++ *
++ * This program is free software: you can redistribute it and/or modify it under
++ * the terms of the GNU General Public License as published by the Free Software
++ * Foundation, either version 2 of the License, or (at your option) any later
++ * version. See http://www.gnu.org/copyleft/gpl.html the full text of the
++ * license.
++ */
++
++private bool is_desktop (string name)
++{
++    var desktop_name_list = Environment.get_variable ("XDG_CURRENT_DESKTOP");
++    if (desktop_name_list == null)
++        return false;
++
++    foreach (var n in desktop_name_list.split (":"))
++        if (n == name)
++            return true;
++
++    return false;
++}

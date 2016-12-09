@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="number-display" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>결과 형식</title>
+    
+    <p>
+    The format used to display results can be changed from the <guiseq><gui>Calculator</gui><gui>Preferences</gui></guiseq> menu.
+    </p>
+    <table>
+    <tr>
+    <td><p><gui>자동</gui></p></td>
+    <td><p>Small results are displayed as <gui>Fixed</gui> notation while long results are displayed as <gui>Scientific</gui> notation</p></td>
+    </tr>
+    <tr>
+    <td><p><gui>고정</gui></p></td>
+    <td><p>결과를 십진수로 표시합니다</p></td>
+    </tr>
+    <tr>
+    <td><p><gui>과학</gui></p></td>
+    <td><p>결과를 <link xref="scientific">과학 표기</link>로 표시합니다</p></td>
+    </tr>
+    <tr>
+    <td><p><gui>Engineering</gui></p></td>
+    <td><p>Results are displayed in scientific notation except the exponent is always a multiple of three</p></td>
+    </tr>
+    </table>
+    <p>
+    The number of decimal places, if trailing zeroes and if thousands separators are shown can also be configured.
+    </p>
+</page>

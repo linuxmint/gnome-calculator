@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="mouse" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Using the Mouse</title>
+
+    <p>
+    All equations can be entered using the mouse.
+    To access all buttons there are a number of modes that can be selected from the <gui>Mode</gui> menu.
+    </p>
+    <table>
+    <tr>
+    <td><p>기본</p></td>
+    <td><p>Provides buttons suitable for <link xref="equation">basic equations</link></p></td>
+    </tr>
+    <tr>
+    <td><p>고급</p></td>
+    <td><p>Provides buttons suitable for advanced mathematics such as <link xref="trigonometry"/></p></td>
+    </tr>
+    <tr>
+    <td><p>재무</p></td>
+    <td><p><link xref="financial">재무 계산</link>에 적합한 단추가 나타납니다</p></td>
+    </tr>
+    <tr>
+    <td><p>프로그래밍</p></td>
+    <td><p>컴퓨터 프로그래머에 적합한 단추가 나타납니다</p></td>
+    </tr>
+    </table>
+</page>
