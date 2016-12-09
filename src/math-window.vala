@@ -86,6 +86,7 @@ public class MathWindow : Gtk.ApplicationWindow
 
         headerbar = new Gtk.HeaderBar ();
         headerbar.show_close_button = true;
+        headerbar.title = _("Calculator");
         headerbar.custom_title = menu_button;
         headerbar.show ();
         if (!is_desktop ("Unity"))
