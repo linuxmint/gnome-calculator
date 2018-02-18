@@ -1788,18 +1788,18 @@ msgstr "hektar,hektar,ha"
 
 #: ../src/unit.vala:59
 msgid "Acres"
-msgstr "Dönüm"
+msgstr "Akre"
 
 #: ../src/unit.vala:59
 #, c-format
 msgctxt "unit-format"
 msgid "%s acres"
-msgstr "%s dönüm"
+msgstr "%s akre"
 
 #: ../src/unit.vala:59
 msgctxt "unit-symbols"
 msgid "acre,acres"
-msgstr "dönüm,dönüm"
+msgstr "akre,akre"
 
 #: ../src/unit.vala:60
 msgid "Square Meters"
